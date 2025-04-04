@@ -4,7 +4,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 import { RestService } from '../rest.service'; 
 
-import { feedbacks } from '../Feedback'; 
+import { feedbacks } from '../Feddback'; 
 
 import { ToastrService } from 'ngx-toastr'; 
 

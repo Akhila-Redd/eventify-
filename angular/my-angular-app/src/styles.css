@@ -1,7 +1,8 @@
 
 body{ 
 
-    background-image: url('../public/back.jpg'); 
+
+    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=x0V7Z%2f8U&id=115A4BA7CB5A2D3C8067BF006B129B8F3C462245&thid=OIP.x0V7Z_8UzO-tWPbDuGy-FwHaE8&mediaurl=https%3a%2f%2fwww.techspot.com%2farticles-info%2f2299%2fimages%2fphoto-jpg.jpg&exph=1440&expw=2160&q=image&simid=608038353650022531&FORM=IRPRST&ck=94FAD61CE81BE5B68337B13B42A21A30&selectedIndex=14&itb=0); 
 
     /* background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */ 
 

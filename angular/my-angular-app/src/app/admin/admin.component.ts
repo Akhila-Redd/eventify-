@@ -13,7 +13,7 @@ import { ChartData, ChartOptions } from 'chart.js';
 
 import { ToastRef, ToastrService } from 'ngx-toastr'; 
 import { Admin } from '../Admin';
-import { feedbacks } from '../Feedback';
+import { feedbacks } from '../Feddback';
 
  
 
