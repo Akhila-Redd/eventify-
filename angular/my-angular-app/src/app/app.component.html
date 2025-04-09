@@ -1,3 +1,7 @@
+
+<div style="background-color: blanchedalmond;">
+
+
 <nav class="navbar h"> 
 
   <a href="" class="navbar-brand" style="margin-left: 0px;"><i class="fa-brands fa-grav"></i>Welcome to the Eventify App</a> 
@@ -5,30 +9,27 @@
   <div class="container"> 
 
       <ul class="nav nav-pills"> 
+        <li>hai akhila</li>
+        <li class="nav-item"> 
 
+          <a class="nav-link" style="color: black;" *ngIf="role=='Admin'" routerLinkActive="active" routerLink="/admin">akhila</a> 
+
+      </li> 
           <li class="nav-item"> 
 
               <a class="nav-link" style="color: black;" *ngIf="role=='Admin'" routerLinkActive="active" routerLink="/admin">Admin</a> 
 
           </li> 
-
- 
-
           <li class="nav-item"> 
 
               <a class="nav-link" style="color: black;" *ngIf="role=='Organizer' || role=='Admin'" routerLinkActive="active" routerLink="/organizer">Organizer</a> 
 
           </li> 
-
- 
-
           <li class="nav-item"> 
 
               <a class="nav-link" style="color: black;" *ngIf="role=='Attendee' || role=='Admin'" routerLinkActive="active" routerLink="/attendee">Attendee</a> 
 
           </li> 
-
- 
 
           <li class="nav-item"> 
 
@@ -330,4 +331,5 @@
 
  
 
-  <!-- <router-outlet></router-outlet> -->
+  <router-outlet></router-outlet> 
+</div>
